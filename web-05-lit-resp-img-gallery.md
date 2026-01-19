@@ -9,7 +9,7 @@ Thanks to the CSS `repeat( )` function and keyword `auto-fit`, you can make your
   display: grid;
   /* The next line makes your image gallery fully responsive */
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+  gap: 15px;
 }
 ```
 ---
