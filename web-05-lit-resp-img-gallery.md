@@ -64,3 +64,15 @@ img {
   object-fit: cover; /* Ensures images don't look squished or distorted even if their aspect ratios -- original heights and widths -- vary */
 }
 ```
+
+---
+
+
+### 🖼️ Sample Output
+
+[Gallery: Desktop view](https://github.com/bengal865/media/blob/0941e8229e9de79df74d3d7157db3cd9f1aa7901/web-05-med-resp-gallery-desktop.png)
+---
+[Gallery: Tablet view](https://github.com/bengal865/media/blob/0941e8229e9de79df74d3d7157db3cd9f1aa7901/web-05-med-resp-gallery-tablet.png)
+---
+[Gallery: Phone view](https://github.com/bengal865/media/blob/0941e8229e9de79df74d3d7157db3cd9f1aa7901/web-05-med-resp-gallery-phone.png)
+---
