@@ -49,7 +49,7 @@ Assuming you've set a minimum width of 250px for your image:
 | --- | --- |
 | **Mobile (320px)** | The grid sees it can't fit two 250px items. It drops down to **1 column**. |
 | **Tablet (600px)** | The grid fits two 250px items (500px total) and distributes the remaining 100px equally. **2 columns**. |
-| **Desktop (1200px)** | The grid fits four 250px items (1000px total) and stretches them to fill. **4 columns**. |
+| **Desktop (1200px)** | The grid fits four 250px items (1000px total) and stretches them to fill the remaining space. **4 columns**. |
 
 ---
 
