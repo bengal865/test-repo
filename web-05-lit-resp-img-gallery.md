@@ -58,7 +58,8 @@ Assuming you've set a minimum width of 250px for your image:
 Make sure you also apply this CSS to your images so they don't break the grid container:
 
 ```css
-img {
+.container div img {
+  /* Targeting all the images in the DIV elements inside the .container DIV */
   width: 100%;
   height: 200px; /* Fixed height for images so they have a clean, uniform look */
   object-fit: cover; /* Ensures images don't look squished or distorted even if their aspect ratios -- original heights and widths -- vary */
