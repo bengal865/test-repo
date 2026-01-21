@@ -19,31 +19,41 @@
       color: #000;
     }
 
+
+
     .container {
-      display: flex;
-      flex-direction: column;
-      justify-items: center;
-      align-content: space-between;
+      /* TODO: Make the container class a Flexbox container using the display property */
+      /* TODO: Set flex direction to COLUMN */
+      /* TODO: Set justify-items property to center */
+      /* TODO: Set align-content property to space-between*/
+
+
+ 
       
       margin: 20px auto;
-      width: 500px;
-      max-height: 300px;
-      border: 2px solid black;
+      /* TODO: Set width to 500px */
+      /* TODO: Set max-height to 300px */
+      /* TODO: Apply a border using the border property */
+
+      
+
     }
 
     audio, .transcript {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-      align-self: center;
+      /* TODO: Set margin-top to 2rem */
+      /* TODO: Set margin-bottom to 2rem */
+      /* TODO: Set align-self property to center */
+      
+
     }
 
     h1 {
-      text-align: center;
-      margin-top: 1rem;
+
+      /* TODO: Set text-align to center */
+      /* TODO: Set margin-top property to 1rem */
+
+
     }
-
-
-
   
   </style>   
 </head>
@@ -51,16 +61,24 @@
 
   <div class="container">
 
-    <h1>Web Design Podcast</h1>
+    <!-- TODO: h1 text should say: Web Design Podcast -->
+    <h1></h1>
 
-    <audio controls="controls">
+    <!-- Add audio element and the controls attribute to opening audio tag -->
 
-      <source src="podcast.mp3" type="audio/mpeg">
-      <source src="podcast.ogg" type="audio/ogg">
+    <audio><! -- OPENING AUDIO TAG -->
 
-      <a href="podcast.mp3">Download the podcast</a> (.mp3 file)
+      <!-- TODO: Add two source elements -->
+      <!-- TODO: Set src attribute of first source element to podcast.mp3 and add type attribute, like so: type="audio/mpeg" -->
+      <!-- TODO: Set src attribute of second source element to podcast.ogg and add type attribute, like so: type="audio/ogg" -->
+      <source>
+      <source>
 
-    </audio>
+      <!-- TODO: Add HTML hyperlink to an audio file named podcast.mp3 -->
+      <!-- TODO: Hyperlink text should say: Download the podcast -->
+      <a></a>
+
+    </audio><! -- CLOSING AUDIO TAG -->
 
 
   <a href="podcast.txt" class="transcript">Podcast Transcript</a>
