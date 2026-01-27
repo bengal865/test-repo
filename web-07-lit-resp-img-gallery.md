@@ -31,7 +31,7 @@ grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
 
 ```
 
-* **What it does:** Tells the grid, "I want the columns to be 250px wide, **unless** the screen is smaller than 250px. In that case, just make the columns 100% of the screen width."
+* **What it does:** Tells the grid, "I want the columns to be 250px wide, **unless** the screen is narrower than 250px. In that case, just make the columns 100% of the screen width."
 * **The Result:** Your grid remains flexible, grid items don't overflow, and the user doesn't have to scroll horizontally.
 
 ---
